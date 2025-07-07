@@ -14,7 +14,7 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin:"https://frontend-jobseeker.vercel.app"||"https://frontend-jobseeker-s2u5.vercel.app",
+    origin:"https://frontend-jobseeker-s2u5.vercel.app",
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
